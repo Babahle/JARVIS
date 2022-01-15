@@ -11,3 +11,9 @@ def open_camera():
 
 def open_discord():
     os.startfile(paths['discord'])
+
+def open_calculator():
+    sp.Popen(paths['calculator'])
+
+def open_cmd():
+    os.system('start cmd')

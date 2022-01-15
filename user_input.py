@@ -14,7 +14,7 @@ def take_user_input():
 
 	try:
 		print("Recognizing....")
-		query = r.recognize_google(audio, language='en-in')
+		query = r.recognize_google(audio, language='en-us')
 		if not 'exit' in query or 'stop' in query:
 			speak(choice(opening_text))
 		else:

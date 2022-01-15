@@ -10,8 +10,7 @@ engine.setProperty('rate', 190)
 
 engine.setProperty('volume', 190)
 
-voices = engine.setProperty('voices')
-
+voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 def speak(text):
